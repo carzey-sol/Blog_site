@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { IoChevronBackOutline } from "react-icons/io5";
 import Link from "next/link";
 
-const page = () => {
+const Page = () => {
 
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -35,4 +35,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

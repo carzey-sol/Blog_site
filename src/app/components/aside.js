@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { BiCategoryAlt } from "react-icons/bi";
 import { FaTags } from "react-icons/fa";
 
-const aside = () => {
+const Aside = () => {
 
     const [isVisible, setIsVisible] = useState(false);
     const toogleVisibility = () => {
@@ -44,4 +44,4 @@ const aside = () => {
     )
 }
 
-export default aside
+export default Aside
