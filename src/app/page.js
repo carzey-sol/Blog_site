@@ -19,9 +19,11 @@ export default function Home() {
       }`}
     >
       <Navbar />
-      <div className="pt-16 block md:flex">
+      <div className="pt-16 block md:flex justify-between ">
         <Aside />
+        <div className='center mx-auto'>
         <Hero />
+        </div>
       </div>
       <Footer />
     </div>
