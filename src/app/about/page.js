@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { IoChevronBackOutline } from "react-icons/io5";
 import Link from "next/link";
 
-const index = () => {
+const page = () => {
 
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -35,4 +35,4 @@ const index = () => {
   )
 }
 
-export default index
+export default page
