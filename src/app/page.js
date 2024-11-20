@@ -4,6 +4,7 @@ import Navbar from './components/navbar';
 import Aside from './components/aside';
 import Hero from './components/hero';
 import Footer from './components/footer';
+import Trending from './components/Trending';
 
 export default function Home() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -21,6 +22,7 @@ export default function Home() {
       <Navbar />
       <div className="pt-16 block md:flex justify-between ">
         <Aside />
+        <Trending />
         <div className='center mx-auto'>
         <Hero />
         </div>
