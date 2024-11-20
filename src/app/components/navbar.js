@@ -10,9 +10,9 @@ import AuthContextProvider from '../lib/contexts/AuthContext';
 const navbar = () => {
   
   return (
-    <div className='fixed flex items-center justify-between text-sm md:fixed md:flex w-[100%]  md:text-xl border-b-2 p-2 bg-white z-10'>
+    <div className='fixed flex items-center justify-between text-sm md:fixed md:flex w-[100%]  md:text-xl  p-2 bg-[#3D5280] text-[#ede8f5] z-10'>
         <Link href='/'>
-        <FaBlogger className='text-3xl text-[#004b68]'/>
+        <FaBlogger className='text-3xl text-[#white]'/>
         </Link>
         <ul className='flex gap-4 md:gap-8'>
             <li ><Link href="/about" className='flex items-center gap-2'><FaInfoCircle />About us</Link></li>
