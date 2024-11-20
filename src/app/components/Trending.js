@@ -26,8 +26,8 @@ const Trending = () => {
 
 
     return (
-        <div className="flex flex-col items-center mt-2 md:-ml-[150px] ">
-            <h1 className="mb-2 font-bold flex items-center gap-2 text-[#3d5280] md:-ml-[900px] text-xl"><FaFireAlt />Trending</h1>
+        <div className="flex flex-col items-center mt-2 md:-ml-[150px] overflow-hidden ">
+            <h1 className="mb-2 font-bold flex items-center gap-2 text-[#3d5280]  -ml-[190px] md:-ml-[900px] text-xl"><FaFireAlt />Trending</h1>
             
             <div className="w-[1000px] h-32 overflow-x-auto whitespace-nowrap scrollbar-hide"
             ref={scrollRef}
