@@ -22,8 +22,8 @@ export default function Home() {
       <Navbar />
       <div className="pt-16 block md:flex justify-between ">
         <Aside />
+        <div className='center mx-auto flex flex-col'>
         <Trending />
-        <div className='center mx-auto'>
         <Hero />
         </div>
       </div>
