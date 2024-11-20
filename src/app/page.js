@@ -15,18 +15,15 @@ export default function Home() {
 
   return (
     <div
-      className={`transition-opacity duration-500 ease-in-out ${
-        isLoaded ? 'opacity-100' : 'opacity-0'
-      }`}
+      className={`transition-opacity duration-500 ease-in-out ${isLoaded ? 'opacity-100' : 'opacity-0'
+        }`}
     >
       <Navbar />
       <div className="pt-16 block md:flex justify-between ">
         <div className='text-[#3d5280]'><Aside /></div>
-        
-        
         <div className='center mx-auto flex flex-col '>
-        <Trending />
-        <Hero />
+          <Trending />
+          <Hero />
         </div>
       </div>
       <Footer />
